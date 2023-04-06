@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
+
+
+*{
+  margin: 0;
+  font-family: "Poppins";
+  color: #D8315B;
+  font-size: 1.5vw;
+}
+
+.navbar{
+  padding: 2vw;
+  display: flex;
+  align-items: center;
+  max-width: 60vw;
+  margin: 0 auto;
+  border-bottom: 0.7vw solid #3E92CC;
+
+}
+
+
+.navbar h1{
+  font-size: 3vw;
+  color: #0A2463;
+}
+
+.navbar .links{
+  margin-left: auto;
+}
+
+.navbar a{
+  margin-left: 5vw;
+  text-decoration:none;
+  padding: 2vw;
+  color: white;
+	background-color: #3E92CC;
+	border-radius: 2vw;
+  font-weight: bold;
+}
+
+.navbar a:hover{
+  color: #FFFAFF;
+  font-weight: bold;
+	background-color: #1E1B18 !important;
+
+}
+
+.active-navbar{
+  background-color: #295c80 !important;
+}
+
+
+.content{
+  max-width: 60vw;
+  margin: 2vw auto;
+  padding: 1vw;
+}
+
+.blog-preview{
+  padding: 1vw 1vw;
+  margin: 1.75vw 0;
+  border-bottom: 0.2vw solid #FFFAFF;
+  
+}
+
+.blog-preview:hover{
+  box-shadow: 0.1vw 0.2vw 0.2vw #D8315B ;
+  color: #D8315B;
+  margin-bottom: 0.3vw;
+}
+
+.blog-list-class{
+  color: #1E1B18;
+}
+
+.loading{
+  color: #1E1B18;
+  text-align: center;
+  font-size: 2vw;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+.blog-final h2{
+  color: #D8315B;
+  font-size: 3vw;
+  font-weight: bolder;
+}
+.blog-final p{
+  color: #1E1B18;
+  font-size: 1vw;
+  padding-bottom: 1vw;
+  border-bottom: 0.1vw solid #D8315B;
+  font-weight: bold;
+}
+
+.blog-final div{
+  /* margin-top: 3vw;
+  padding: 1vw; */
+  color: #1E1B18;
+  font-weight: 600;
+
+}
+
+.create{
+  max-width: 40vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label{
+  text-align: left;
+  display: block;
+  color: #1E1B18;
+}
+
+.create h2{
+  font-size: 2vw;
+  color: #D8315B;
+  margin-bottom: 3vw;
+}
+
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 1vh 1vw;
+  margin: 1vw 0;
+  border: 0.15vw solid #fcb6c6;
+  box-sizing: border-box;
+  display: block;
+}
+.create button, .blog-final button{
+  background: #D8315B;
+  color: #FFFAFF;
+  border: 0;
+  padding: 0.6vw 0.8vw;
+  border-radius: 0.6vw;
+  cursor: pointer;
+}
+.blog-final button.verify{
+  background: rgb(75, 119, 9);
+  color: #FFFAFF;
+  border: 0;
+  padding: 0.6vw 0.8vw;
+  border-radius: 0.6vw;
+  cursor: pointer;
+}
+
+.create button:hover, .blog-final button:hover{
+  background-color: #791c34;
+}
+
+.not-found h2, .not-found a, .not-found p{
+  color: #1E1B18;
+}
+
+
+
